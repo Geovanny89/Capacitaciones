@@ -1,0 +1,16 @@
+.redes{
+    display: flex;
+    gap: 15px;
+}
+.redes h1{
+    margin-left: 15px;
+    font-size: 15px;
+}
+.redes img{
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+}
+.redes img:hover{
+
+   transform: scale(1.2);
+}

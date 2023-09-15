@@ -50,10 +50,10 @@ router.get('/empleado/:id', async (req, res) => {
 
 router.post('/crear/empleado', async (req, res) => {
     try {
-        const { id, name, lastname, post, area, email, empresaId } = req.body;
+        const { id, name, lastname, post, area, email,contraseña,empresaId } = req.body;
 
         // Verificar que todos los campos estén completos
-        if (!id || !name || !lastname || !post || !area || !email || !empresaId) {
+        if (!id || !name || !lastname || !post || !area || !email || !contraseña || !empresaId) {
             res.status(400).send("Todos los campos deben estar completos");
             return;
         }
@@ -77,6 +77,7 @@ router.post('/crear/empleado', async (req, res) => {
             post,
             area,
             email,
+            contraseña,
             empresa: empresa, // Asignar la instancia de la empresa
         });
 

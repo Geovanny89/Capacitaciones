@@ -15,6 +15,19 @@ router.get('/empresa',async(req, res)=> {
         res.status(500).send("Error de servidor ")
     }
 });
+router.get('/detail/empresa/:id',async(req, res)=> {
+    try {
+        const {id} = req.params
+        const empresas = await EmpresaSchema.findById(id)
+        if(!empresas){
+            res.status(404).send("No Exiten empresas")
+        }
+        res.status(200).send(empresas);
+    } catch (error) {
+        console.log(error)
+        res.status(500).send("Error de servidor ")
+    }
+});
 router.get('/empresa/name', async(req, res)=>{
     try {
         const {name}= req.query
@@ -32,7 +45,6 @@ router.get('/empresa/name', async(req, res)=>{
         res.status(500).send("Error de servidor")
     }
 })
-
 router.post('/empresa/crear',async (req,res) =>{
     try {
         const {name,nit,email,phone} = req.body;
@@ -50,6 +62,7 @@ router.post('/empresa/crear',async (req,res) =>{
         res.status(500).send("Error de servidor")
     }
 });
+
 
 router.put('/empresa/update/:id', async (req,res) =>{
     try {

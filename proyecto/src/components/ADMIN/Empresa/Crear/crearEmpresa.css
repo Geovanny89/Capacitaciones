@@ -1,0 +1,11 @@
+.form-empresa{
+    border: 1px solid rgba(128, 128, 128, 0.396);
+    border-radius: 8px;
+    align-items: center;
+    width: 450px;
+    margin-top: 45px;
+    margin-left: 450px;
+}
+.form-empresa{
+   padding: 15px;
+}

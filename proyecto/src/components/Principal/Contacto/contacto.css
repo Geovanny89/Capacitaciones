@@ -1,0 +1,26 @@
+.contacto{
+    border: 1px solid rgb(174, 173, 173);
+    border-radius: 8px;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+ 
+    
+}
+
+
+
+.contacto button{
+    margin-top: 15px;
+   width: 90px;
+ 
+
+}
+.contacto button:hover{
+    color: rgb(245, 245, 245);
+    background-color: black;
+}
+

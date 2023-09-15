@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .navbar{
+    height: 80px;
+  }
+.asesoria{
+    font-size: 15px;
+    height: 550px;
+    margin: 0; /* Elimina los márgenes */
+    padding: 0; /* Elimina el relleno */
+
+    background: rgb(0,33,36);
+background: linear-gradient(90deg, rgba(0,33,36,0.7343312324929971) 8%, rgba(103,199,193,0.39539565826330536) 100%);
+}
+.custom-height {
+    font-size: 15px;
+    height: 550px; 
+    background: rgb(0,33,36);
+background: linear-gradient(90deg, rgba(0,33,36,0.7343312324929971) 8%, rgba(103,199,193,0.39539565826330536) 100%);
+  }
+
+
+
+  .imagen-estilo {
+    border: 2px solid #ccc;
+    max-width: 80%; /* Hace que la imagen sea responsive al ancho del contenedor */
+    margin-left: 55px; /* Centra horizontalmente la imagen en su contenedor */
+    margin-right: auto; /* Centra horizontalmente la imagen en su contenedor */
+    background-size: 30px 10px; 
+    background-image: radial-gradient(circle, #dedada 1px, transparent 1px); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Otros estilos personalizados */
+  }
+  
+.conten-somos{
+
+    display: flex;
+    
+    margin-top: 55px;
+}
+.contenido-texto{
+    margin-top: 75px;
+}
+
+.parrafo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: grey;
+}

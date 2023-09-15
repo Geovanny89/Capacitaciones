@@ -1,6 +1,7 @@
 .redes{
+    margin-top: 55px;
     display: flex;
-    gap: 15px;
+    gap: 25px;
 }
 .redes h1{
     margin-left: 15px;

@@ -1,8 +1,8 @@
 import React from 'react'
 import './redes.css'
-import face from '../../assets/face.png';
-import insta from '../../assets/insta.png';
-import tuit from '../../assets/twitter.png';
+import face from '../../../assets/face.png';
+import insta from '../../../assets/insta.png';
+import tuit from '../../../assets/twitter.png';
 
 
 export default function Redes() {

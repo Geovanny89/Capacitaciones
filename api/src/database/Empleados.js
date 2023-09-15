@@ -27,6 +27,13 @@ const EmpleadosSchema= mongoose.Schema({
    email:{
         type:String
    },
+   contraseña:{
+    type:String
+   },
+   rol:{
+    type:["user","admin"],
+        default:"user"
+   },
    empresa: { type: Schema.Types.ObjectId, ref: 'Empresa' },
    direcciones:{type:Schema.Types.ObjectId, ref: 'Direcciones'},
    trainingProgress: [TrainingProgressSchema], // Registro de progreso de capacitación

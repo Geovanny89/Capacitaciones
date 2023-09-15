@@ -1,0 +1,25 @@
+.nav-link {
+  gap: 25px;
+  margin: 25px;
+}
+
+.menu-navbar li a {
+  text-decoration: none;
+  color: rgb(71, 70, 70);
+  
+
+}
+.menu-navbar li a:hover{
+   color: rgb(112, 112, 112);
+    
+  }
+.btn-ingresar{
+   margin-left: 250px;
+  
+}
+.btn-ingresar:hover{
+    background-color: rgb(144, 246, 144);
+    cursor: pointer;
+    color: black;
+   
+}
